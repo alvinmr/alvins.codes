@@ -1,6 +1,5 @@
 <template>
   <div class="container text-center">
-    <navbar />
     <div class="hidden hello lg:block md:block">
       <p class="text-white opacity-50 font-brandon hello">HELLO</p>
     </div>
@@ -8,19 +7,15 @@
       <p class="text-xs text-center lg:text-3xl lg:text-center md:text-3xl md:text-center">
         I'm a web developer based in
         <br />Bali - Indonesia who loves to
-        <br />translate design into real think 💻🤘
+        <br />translate design into real stuffs 💻🤘
       </p>
     </div>
   </div>
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
-
 export default {
-  components: {
-    Navbar
-  }
+  components: {}
 };
 </script>
 
