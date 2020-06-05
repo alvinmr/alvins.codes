@@ -242,6 +242,9 @@ module.exports = {
       brandon: [
         'Brandon'
       ],
+      brandonBlack: [
+        'Brandon Black'
+      ],
       sans: [
         'system-ui',
         '-apple-system',

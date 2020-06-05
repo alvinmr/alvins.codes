@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>halaman contact</p>
+    <p>contact me maniez</p>
   </div>
 </template>
 

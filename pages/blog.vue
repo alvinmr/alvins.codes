@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>halaman blog</p>
+    <p class="mt-56 text-center">belom ada, masih belom tak buat</p>
   </div>
 </template>
 
