@@ -1,10 +1,7 @@
 <template>
-  <div>
-    <div
-      class="relative grid w-full mt-3 text-white bg-gray-500 font-brandonBlack"
-      style="background-color: #007BFF"
-    >
-      <div class="flex flex-row justify-between mx-4 mt-4 text-2xl">
+  <div class="mt-5 border-2 border-black rounded-md lg:mt-10">
+    <div class="relative grid w-full text-white font-brandonBlack project-wrap">
+      <div class="flex flex-row justify-between mx-4 mt-4 text-md lg:text-2xl">
         <p>2020</p>
         <a class="tracking-wider" href="#">
           View Project
@@ -20,23 +17,29 @@
           </svg>
         </a>
       </div>
-      <div class="flex flex-col justify-center text-center title">
-        <h1 class="text-6xl tracking-wider font-brandonBlack">ABELL</h1>
-        <h3 class="text-3xl tracking-wide font-brandonBlack">Automatic Bell System</h3>
+      <div class="flex flex-col justify-center my-5 text-center title">
+        <h1 class="text-2xl tracking-wider lg:text-6xl font-brandonBlack">{{ project.title }}</h1>
+        <h3 class="text-base tracking-wide lg:text-3xl font-brandonBlack">{{ project.desc }}</h3>
       </div>
       <div class="flex justify-center">
-        <img class="w-5/6" src="~assets/images/abell@2x2.png" alt />
+        <img class="w-5/6" :src="require(`@/assets/images/${project.img}`)" alt />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["project"]
+};
 </script>
 
-<style>
+<style >
 .view-btn {
   right: 0;
+}
+.project-wrap {
+  box-shadow: 12px 12px 0px #1b262c;
+  @apply rounded-md;
 }
 </style>
