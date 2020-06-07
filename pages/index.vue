@@ -17,22 +17,41 @@
     <div class="grid mt-56 project">
       <p class="text-xs font-black tracking-widest opacity-50 font-brandon">PROJECT</p>
       <h1 class="text-xl lg:text-2xl font-brandonBlack">Recent Projects</h1>
-      <project
-        :project="{
+      <div class="grid grid-cols-1 gap-2 lg:gap-10 lg:grid-cols-2">
+        <project
+          :project="{
         title: 'ABELL',
         desc: 'Automatic Bell System',
-        img: 'abell@2x2.png'
+        img: 'abell@2x.png'
       }"
-        style="background-color: #007BFF"
-      />
-      <project
-        :project="{
+          style="background-color: #007BFF"
+        />
+        <project
+          :project="{
         title: 'SIPASTI',
         desc: 'Payment System For School',
         img: 'sipasti@2x.png'
       }"
-        style="background-color: #665DD3"
-      />
+          style="background-color: #665DD3"
+        />
+        <project
+          :project="{
+        title: 'SHAYNA',
+        desc: 'Fashion E-Commerce',
+        img: 'shayna@2x.png'
+      }"
+          style="background-color: #FEC519"
+        />
+
+        <project
+          :project="{
+        title: 'NOMADS',
+        desc: ' Booking Travel Web',
+        img: 'nomads@2x.png'
+      }"
+          style="background-color: #273964"
+        />
+      </div>
     </div>
   </div>
 </template>

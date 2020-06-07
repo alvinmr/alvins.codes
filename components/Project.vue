@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-5 border-2 border-black rounded-md lg:mt-10">
-    <div class="relative grid w-full text-white font-brandonBlack project-wrap">
-      <div class="flex flex-row justify-between mx-4 mt-4 text-md lg:text-2xl">
+  <div class="w-full mt-5 border-2 border-black rounded-md lg:mt-10">
+    <div class="relative grid text-white font-brandonBlack project-wrap">
+      <div class="flex flex-row justify-between mx-4 mt-4 text-md lg:text-xl">
         <p>2020</p>
         <a class="tracking-wider" href="#">
           View Project
@@ -34,7 +34,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .view-btn {
   right: 0;
 }
