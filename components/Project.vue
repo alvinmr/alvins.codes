@@ -1,11 +1,11 @@
 <template>
-  <div class="w-full mt-5 border-2 border-black rounded-md lg:mt-10">
-    <div class="relative grid text-white font-brandonBlack project-wrap">
-      <div class="flex flex-row justify-between mx-4 mt-4 text-md lg:text-xl">
+  <div class="border-2 border-black rounded project-wrap">
+    <div class="relative grid text-white font-brandonBlack">
+      <div class="flex flex-row justify-between mx-4 mt-4 text-xs lg:text-xl">
         <p>2020</p>
         <a class="tracking-wider" href="#">
           View Project
-          <svg class="inline w-5 svg-icon" viewBox="0 0 20 20">
+          <svg class="inline w-0 svg-icon" viewBox="0 0 20 20">
             <path
               fill="#fff"
               d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0
@@ -19,9 +19,9 @@
       </div>
       <div class="flex flex-col justify-center my-5 text-center title">
         <h1 class="text-2xl tracking-wider lg:text-6xl font-brandonBlack">{{ project.title }}</h1>
-        <h3 class="text-base tracking-wide lg:text-3xl font-brandonBlack">{{ project.desc }}</h3>
+        <h3 class="font-sans text-base tracking-wide lg:text-3xl">{{ project.desc }}</h3>
       </div>
-      <div class="flex justify-center">
+      <div class="flex justify-center align-bottom">
         <img class="w-5/6" :src="require(`@/assets/images/${project.img}`)" alt />
       </div>
     </div>
@@ -35,11 +35,17 @@ export default {
 </script>
 
 <style>
+.svg-icon {
+  transition: 0.3s ease-in-out;
+}
+a:hover .svg-icon {
+  transition: 0.3s ease-in-out;
+  @apply w-5;
+}
 .view-btn {
   right: 0;
 }
 .project-wrap {
-  box-shadow: 12px 12px 0px #1b262c;
-  @apply rounded-md;
+  box-shadow: 8px 8px 0px #1b262c;
 }
 </style>
