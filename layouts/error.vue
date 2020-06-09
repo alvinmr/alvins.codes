@@ -1,14 +1,19 @@
 <template>
-  <div class="grid justify-center mt-56 text-center">
-    <h1 v-if="error.statusCode === 404">Page not found</h1>
+  <div class="flex flex-col justify-center text-center align-middle">
+    <div v-if="error.statusCode === 404">
+      <h1 class="text-6xl font-bold tracking-widest">404</h1>
+      <h1>Page not found</h1>
+    </div>
     <h1 v-else>An error occurred</h1>
-    <nuxt-link to="/" class="px-2 py-2 mt-2 text-white bg-black border-2 border-black">Home page</nuxt-link>
+    <nuxt-link
+      to="/"
+      class="w-64 px-2 py-2 mx-auto mt-2 text-white bg-black border-2 border-black"
+    >Home page</nuxt-link>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["error"],
-  layout: "blog" // Anda dapat mengatur layout kustom untuk halaman kesalahan
+  props: ["error"]
 };
 </script>
