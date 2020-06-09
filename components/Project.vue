@@ -22,7 +22,7 @@
         <h3 class="font-sans text-base tracking-wide lg:text-3xl">{{ project.desc }}</h3>
       </div>
       <div class="flex justify-center align-bottom">
-        <img class="w-5/6" :src="require(`@/assets/images/${project.img}`)" alt />
+        <img class="w-5/6 h-full" :src="require(`@/assets/images/${project.img}`)" alt />
       </div>
     </div>
   </div>
