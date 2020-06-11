@@ -1,7 +1,7 @@
 export default {
   mode: "universal",
   env: {
-    BOT_TELE_API: process.env.BOT_TELE_API || "1102686581:AAH-4VvcpF-V1EYy-PaAUPIBQviRPSh097k"
+    BOT_TELE_API: process.env.BOT_TELE_API || ""
   },
   /*
    ** Headers of the page
@@ -36,7 +36,8 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: "#fff"
+    color: "blue",
+    height: '5px'
   },
   /*
    ** Global CSS

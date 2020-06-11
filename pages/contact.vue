@@ -1,8 +1,13 @@
 <template>
   <div>
-    <div v-if="success">pesan sukses dikirim</div>
+    <div v-if="loading">
+      <div class="absolute top-0 left-0 z-10 w-screen h-screen bg-white">
+        <img src="~assets/images/loading.gif" class="mx-auto mt-56" />
+        <p class="mt-10 text-xl tracking-widest text-center">LOADING</p>
+      </div>
+    </div>
 
-    <div class="grid grid-flow-row lg:grid-flow-col">
+    <div v-else class="grid grid-flow-row lg:grid-flow-col">
       <div class="grid justify-center mt-4 text-center lg:text-left">
         <h1 class="w-full text-3xl lg:w-2/3 lg:text-6xl font-brandonBlack">Let's work together</h1>
         <img src="~assets/images/cont2.gif" class="mx-auto lg:mx-px" alt="contact me" />
@@ -55,7 +60,7 @@ export default {
   data() {
     return {
       errors: [],
-      success: false,
+      loading: false,
       name: "",
       email: "",
       service: "",
@@ -85,6 +90,12 @@ export default {
             console.log(err);
           });
       }
+    },
+    start() {
+      this.loading = true;
+    },
+    finish() {
+      this.loading = false;
     }
   }
 };
