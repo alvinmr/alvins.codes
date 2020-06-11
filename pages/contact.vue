@@ -4,17 +4,11 @@
 
     <div class="grid grid-flow-row lg:grid-flow-col">
       <div class="grid justify-center mt-4 text-center lg:text-left">
-        <h1 class="w-full text-3xl lg:w-2/3 lg:text-6xl font-brandonBlack">
-          Let's work together
-        </h1>
-        <img
-          src="~assets/images/cont2.gif"
-          class="mx-auto lg:mx-px"
-          alt="contact me"
-        />
+        <h1 class="w-full text-3xl lg:w-2/3 lg:text-6xl font-brandonBlack">Let's work together</h1>
+        <img src="~assets/images/cont2.gif" class="mx-auto lg:mx-px" alt="contact me" />
       </div>
       <div
-        class="p-3 mt-10 bg-white border-2 border-black lg:w-3/4 project-wrap"
+        class="p-3 mt-10 bg-white border-2 border-black lg:w-3/4 project-wrap shadow-theme rounded-theme"
       >
         <div class="text-red-700">
           <ul class="list-disc list-inside">
@@ -34,24 +28,16 @@
           <select v-model="service" class="input-group" name="service">
             <option value disabled>Choose whats you needed</option>
             <option value="Just want say hello!">Just want say hello!</option>
-            <option value="Need help with a project"
-              >Need help with a project</option
-            >
+            <option value="Need help with a project">Need help with a project</option>
             <option value="Long term partnership">Long term partnership</option>
             <option value="Hire me full-time">Hire me full-time</option>
           </select>
         </div>
         <div class="form-group">
           <label for="message">Your Message</label>
-          <textarea
-            class="input-group"
-            v-model="message"
-            name="message"
-          ></textarea>
+          <textarea class="input-group" v-model="message" name="message"></textarea>
         </div>
-        <button class="mt-3 btn-submit lg:w-32" @click="sendEmail()">
-          SUBMIT
-        </button>
+        <button class="mt-3 btn-submit lg:w-32" @click="sendEmail()">SUBMIT</button>
       </div>
     </div>
   </div>

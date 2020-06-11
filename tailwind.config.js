@@ -187,6 +187,7 @@ module.exports = {
       md: '0.375rem',
       lg: '0.5rem',
       full: '9999px',
+      theme: '5px 5px 0 5px'
     },
     borderWidth: {
       default: '1px',
@@ -205,6 +206,7 @@ module.exports = {
       '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
+      theme: '8px 8px 0px #1b262c',
       none: 'none',
     },
     container: {

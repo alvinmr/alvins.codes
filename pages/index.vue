@@ -8,7 +8,8 @@
         >
           I'm a web developer based in
           <br />Bali - Indonesia who loves to
-          <br />translate design into real stuffs 💻🤘
+          <br />translate design into real
+          stuffs 💻🤘
         </p>
       </div>
     </div>
@@ -20,7 +21,8 @@
           :project="{
             title: 'ABELL',
             desc: 'Automatic Bell System',
-            img: 'abell@2x.png'
+            img: 'abell@2x.png',
+            link: 'https://github.com/alvinmr/abell'
           }"
           style="background-color: #007BFF"
         />
@@ -28,7 +30,8 @@
           :project="{
             title: 'SIPASTI',
             desc: 'Payment System For School',
-            img: 'sipasti@2x.png'
+            img: 'sipasti@2x.png',
+            link: 'https://github.com/alvinmr/sipasti'
           }"
           style="background-color: #665DD3"
         />

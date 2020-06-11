@@ -1,11 +1,11 @@
 <template>
-  <div class="border-2 border-black rounded shadow">
+  <div class="border-2 border-black rounded shadow-theme rounded-theme">
     <div class="relative grid text-white font-brandonBlack">
       <div class="flex flex-row justify-between mx-4 mt-4 text-xs lg:text-xl">
         <p>2020</p>
-        <a class="tracking-wider" href="#">
+        <a class="tracking-wider" :href="project.link" target="_blank">
           View Project
-          <svg class="inline w-0 svg-icon" viewBox="0 0 20 20">
+          <svg class="inline w-5 lg:w-0 svg-icon" viewBox="0 0 20 20">
             <path
               fill="#fff"
               d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0
@@ -44,9 +44,5 @@ a:hover .svg-icon {
 }
 .view-btn {
   right: 0;
-}
-.shadow {
-  box-shadow: 8px 8px 0px #1b262c;
-  border-radius: 5px 5px 0 5px;
 }
 </style>
