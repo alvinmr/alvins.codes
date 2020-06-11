@@ -39,7 +39,7 @@
 </template>
 
 
-<style>
+<style >
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.5s;
@@ -67,6 +67,7 @@
 body {
   font-family: "DM Mono";
   background-color: #f6f6f6;
+  -ms-overflow-style: none;
 }
 
 .active-link {

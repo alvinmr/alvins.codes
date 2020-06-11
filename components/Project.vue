@@ -1,5 +1,5 @@
 <template>
-  <div class="border-2 border-black rounded project-wrap">
+  <div class="border-2 border-black rounded shadow">
     <div class="relative grid text-white font-brandonBlack">
       <div class="flex flex-row justify-between mx-4 mt-4 text-xs lg:text-xl">
         <p>2020</p>
@@ -34,7 +34,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .svg-icon {
   transition: 0.3s ease-in-out;
 }
@@ -45,7 +45,8 @@ a:hover .svg-icon {
 .view-btn {
   right: 0;
 }
-.project-wrap {
+.shadow {
   box-shadow: 8px 8px 0px #1b262c;
+  border-radius: 5px 5px 0 5px;
 }
 </style>

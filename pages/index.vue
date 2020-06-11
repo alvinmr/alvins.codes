@@ -1,12 +1,10 @@
 <template>
   <div>
     <div class="text-center h-vh">
-      <div class="hidden hello lg:block md:block">
-        <p class="text-white opacity-50 font-brandonBlack">HELLO</p>
-      </div>
-      <div class="grid justify-center mt-32 lg:mt-40 md:mt-38">
+      <div class="grid justify-center align-middle">
+        <p class="hidden text-white opacity-50 hello lg:block md:block font-brandonBlack">HELLO</p>
         <p
-          class="text-sm font-bold text-center lg:text-3xl lg:text-center md:text-3xl md:text-center"
+          class="block mt-20 text-sm font-bold text-center lg:-mt-80 lg:text-3xl lg:text-center md:text-3xl md:text-center"
         >
           I'm a web developer based in
           <br />Bali - Indonesia who loves to
@@ -14,7 +12,7 @@
         </p>
       </div>
     </div>
-    <div class="grid mt-56 project">
+    <div class="grid mt-20 lg:mt-56 project">
       <p class="text-xs font-black tracking-widest opacity-50 font-brandon">PROJECT</p>
       <h1 class="text-xl lg:text-2xl font-brandonBlack">Recent Projects</h1>
       <div class="grid grid-cols-1 gap-5 mt-10 lg:gap-6 lg:grid-cols-2">
@@ -64,11 +62,7 @@ export default {
 
 <style scoped>
 .hello {
-  position: absolute;
-  top: 50%;
-  left: 50%;
   z-index: -1;
-  transform: translate(-50%, -50%);
   text-shadow: 6px 6px 3px #0000003b;
   font-size: 300px;
 }
