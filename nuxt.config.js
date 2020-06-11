@@ -1,5 +1,8 @@
 export default {
   mode: "universal",
+  env: {
+    BOT_TELE_API: process.env.BOT_TELE_API || "1102686581:AAH-4VvcpF-V1EYy-PaAUPIBQviRPSh097k"
+  },
   /*
    ** Headers of the page
    */
