@@ -1,48 +1,45 @@
 <template>
   <div>
-    <div v-if="loading">
-      <div class="absolute top-0 left-0 z-10 w-screen h-screen bg-white">
-        <img src="~assets/images/loading.gif" class="mx-auto mt-56" />
-        <p class="mt-10 text-xl tracking-widest text-center">LOADING</p>
-      </div>
-    </div>
-
-    <div v-else class="grid grid-flow-row lg:grid-flow-col">
-      <div class="grid justify-center mt-4 text-center lg:text-left">
-        <h1 class="w-full text-3xl lg:w-2/3 lg:text-6xl font-brandonBlack">Let's work together</h1>
+    <div class="grid grid-flow-row lg:grid-flow-col">
+      <div class="grid justify-center mt-4 text-center h-80 lg:text-left">
+        <h1
+          class="w-full text-3xl lg:w-2/3 lg:text-6xl md:text-6xl font-brandonBlack"
+        >Let's work together</h1>
         <img src="~assets/images/cont2.gif" class="mx-auto lg:mx-px" alt="contact me" />
       </div>
       <div
         class="p-3 mt-10 bg-white border-2 border-black lg:w-3/4 project-wrap shadow-theme rounded-theme"
       >
-        <div class="text-red-700">
-          <ul class="list-disc list-inside">
-            <li v-for="error in errors" :key="error.id">{{ error }}</li>
-          </ul>
-        </div>
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input v-model="name" class="input-group" type="text" />
-        </div>
-        <div class="form-group">
-          <label for="email">Your Email</label>
-          <input v-model="email" class="input-group" type="email" />
-        </div>
-        <div class="form-group">
-          <label for="service">Service</label>
-          <select v-model="service" class="input-group" name="service">
-            <option value disabled>Choose whats you needed</option>
-            <option value="Just want say hello!">Just want say hello!</option>
-            <option value="Need help with a project">Need help with a project</option>
-            <option value="Long term partnership">Long term partnership</option>
-            <option value="Hire me full-time">Hire me full-time</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message">Your Message</label>
-          <textarea class="input-group" v-model="message" name="message"></textarea>
-        </div>
-        <button class="mt-3 btn-submit lg:w-32" @click="sendEmail()">SUBMIT</button>
+        <form v-on:submit.prevent="sendEmail">
+          <div class="text-red-700">
+            <ul class="list-disc list-inside error">
+              <li v-for="error in errors" :key="error.id">{{ error }}</li>
+            </ul>
+          </div>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input v-model="name" class="input-group" type="text" />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input v-model="email" class="input-group" type="email" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service</label>
+            <select v-model="service" class="input-group" name="service">
+              <option value disabled>Choose whats you needed</option>
+              <option value="Just want say hello!">Just want say hello!</option>
+              <option value="Need help with a project">Need help with a project</option>
+              <option value="Long term partnership">Long term partnership</option>
+              <option value="Hire me full-time">Hire me full-time</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea class="input-group" v-model="message" name="message"></textarea>
+          </div>
+          <button type="submit" class="mt-3 btn-submit lg:w-32">SUBMIT</button>
+        </form>
       </div>
     </div>
   </div>
@@ -60,7 +57,6 @@ export default {
   data() {
     return {
       errors: [],
-      loading: false,
       name: "",
       email: "",
       service: "",
@@ -90,18 +86,23 @@ export default {
             console.log(err);
           });
       }
-    },
-    start() {
-      this.loading = true;
-    },
-    finish() {
-      this.loading = false;
     }
   }
 };
 </script>
 
-<style>
+<style scoped>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.error {
+  animation: fadeIn 1s;
+}
 .form-group {
   @apply mt-3;
 }

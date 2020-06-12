@@ -2,7 +2,7 @@
   <transition name="page">
     <div class="container px-4">
       <nav>
-        <div class="grid justify-center mt-4 text-center">
+        <div class="flex flex-col items-center mt-4 text-center lg:flex-row lg:justify-between">
           <div>
             <div class="text-2xl tracking-widest font-brandonBlack">
               ALVIN'S
@@ -67,6 +67,7 @@
 body {
   font-family: "DM Mono";
   background-color: #f6f6f6;
+  transition: 1s ease-in;
   -ms-overflow-style: none;
 }
 

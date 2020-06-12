@@ -4,7 +4,7 @@
       <div class="grid justify-center align-middle">
         <p class="hidden text-white opacity-50 hello lg:block md:block font-brandonBlack">HELLO</p>
         <p
-          class="block mt-20 text-sm font-bold text-center lg:-mt-80 lg:text-3xl lg:text-center md:text-3xl md:text-center"
+          class="block mt-20 text-sm font-bold text-center lg:-mt-80 lg:text-3xl lg:text-center md:text-3xl md:text-center md:-mt-56"
         >
           I'm a web developer based in
           <br />Bali - Indonesia who loves to
