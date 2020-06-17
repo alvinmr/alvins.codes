@@ -24,13 +24,13 @@
         <p class="text-xs opacity-50">hey feel free to reach me</p>
         <ul class="grid grid-flow-col gap-5 text-xs">
           <li>
-            <a href="#">Instagram</a>
+            <a href="https://instagram.com/aaaaaaaaaaaalvin">Instagram</a>
           </li>/
           <li>
-            <a href="#">Email</a>
+            <a href="mailto:maulanaalvin1@gmail.com">Email</a>
           </li>/
           <li>
-            <a href="#">Github</a>
+            <a href="https://github.com/alvinmr">Github</a>
           </li>
         </ul>
       </footer>
