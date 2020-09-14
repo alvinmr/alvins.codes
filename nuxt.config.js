@@ -1,5 +1,4 @@
 export default {
-  mode: "universal",
   env: {
     BOT_TELE_API: process.env.BOT_TELE_API || ""
   },
@@ -8,7 +7,8 @@ export default {
    */
   head: {
     title: process.env.npm_package_name || "",
-    meta: [{
+    meta: [
+      {
         charset: "utf-8"
       },
       {
@@ -21,14 +21,16 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{
+    link: [
+      {
         rel: "icon",
         type: "image/x-icon",
         href: "/favicon.ico"
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap"
+        href:
+          "https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap"
       }
     ]
   },
@@ -37,7 +39,7 @@ export default {
    */
   loading: {
     color: "blue",
-    height: '5px'
+    height: "5px"
   },
   /*
    ** Global CSS
@@ -59,7 +61,10 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["@nuxtjs/pwa", "@nuxtjs/axios"],
+  modules: ["@nuxtjs/pwa", "@nuxtjs/axios", "@nuxt/content"],
+  content: {
+    // Options
+  },
   /*
    ** Build configuration
    */
