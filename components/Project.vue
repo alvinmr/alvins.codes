@@ -1,5 +1,5 @@
 <template>
-  <div class="border-2 border-black rounded shadow-theme rounded-theme">
+  <div class="border-2 border-black shadow-theme rounded-theme">
     <div class="relative grid text-white font-brandonBlack">
       <div class="flex flex-row justify-between mx-4 mt-4 text-xs lg:text-xl">
         <p>2020</p>
@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  props: ["project"]
+  props: ["project"],
 };
 </script>
 

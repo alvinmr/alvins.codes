@@ -10,9 +10,9 @@
             </div>
           </div>
           <div class="my-4 text-sm tracking-wide uppercase nav-menu font-brandonBlack">
-            <nuxt-link class="mx-5 hover:underline" to="/">Home</nuxt-link>
+            <nuxt-link class="mx-5 hover:underline" to="/" exact>Home</nuxt-link>
             <nuxt-link class="mx-5 hover:underline" to="/blog">Blog</nuxt-link>
-            <nuxt-link class="mx-5 hover:underline" to="/contact">Contact</nuxt-link>
+            <nuxt-link class="mx-5 hover:underline" to="/contact" exact>Contact</nuxt-link>
           </div>
         </div>
       </nav>
@@ -61,15 +61,15 @@
   src: url("~assets/fonts/Brandon_blk.otf");
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 body {
   font-family: "DM Mono";
   background-color: #f6f6f6;
   transition: 1s ease-in;
-  -ms-overflow-style: none;
+  /* -ms-overflow-style: none; */
 }
 
 .active-link {

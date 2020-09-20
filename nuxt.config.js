@@ -7,8 +7,7 @@ export default {
    */
   head: {
     title: process.env.npm_package_name || "",
-    meta: [
-      {
+    meta: [{
         charset: "utf-8"
       },
       {
@@ -21,16 +20,14 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [
-      {
+    link: [{
         rel: "icon",
         type: "image/x-icon",
         href: "/favicon.ico"
       },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap"
+        href: "https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap"
       }
     ]
   },
@@ -55,16 +52,35 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/dotenv",
-    "@nuxtjs/pwa"
+    "@nuxtjs/pwa",
+    '@nuxtjs/moment'
   ],
   /*
    ** Nuxt.js modules
    */
   modules: ["@nuxtjs/pwa", "@nuxtjs/axios", "@nuxt/content"],
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        const {
+          time
+        } = require('reading-time')(document.text)
+
+        document.readingTime = time
+      }
+    }
+  },
   content: {
     // Options
+    liveEdit: false,
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
+
   },
+  components: true,
   /*
    ** Build configuration
    */
@@ -75,6 +91,7 @@ export default {
     extend(config, ctx) {}
   },
   router: {
-    linkExactActiveClass: "active-link"
+    // linkExactActiveClass: "active-link",
+    linkActiveClass: 'active-link'
   }
 };

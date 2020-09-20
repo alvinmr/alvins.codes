@@ -23,6 +23,7 @@ module.exports = {
 
       black: '#1B262C',
       white: '#fff',
+      whiteTheme: '#f6f6f6',
 
       gray: {
         100: '#f7fafc',
@@ -748,5 +749,9 @@ module.exports = {
     transitionDelay: ['responsive'],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'), ],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  }
 }

@@ -27,8 +27,8 @@
           <div class="form-group">
             <label for="service">Service</label>
             <select v-model="service" class="input-group" name="service">
-              <option value disabled>Choose whats you needed</option>
-              <option value="Just want say hello!">Just want say hello!</option>
+              <option value disabled>Choose what you needed</option>
+              <option value="Just wanna say hello!">Just wanna say hello!</option>
               <option value="Need help with a project">Need help with a project</option>
               <option value="Long term partnership">Long term partnership</option>
               <option value="Hire me full-time">Hire me full-time</option>
@@ -51,7 +51,7 @@ export default {
   components: {},
   head() {
     return {
-      title: "alvinscodes | contact"
+      title: "alvinscodes | contact",
     };
   },
   data() {
@@ -60,14 +60,13 @@ export default {
       name: "",
       email: "",
       service: "",
-      message: ""
+      message: "",
     };
   },
   methods: {
     sendEmail() {
       this.errors = [];
       if (!this.name) this.errors.push("Please fill your name ☹️");
-      if (this.email.length < 20) this.errors.push("Fill the right email");
       if (!this.service) this.errors.push("Hmmm fill what service you want");
       if (!this.message) this.errors.push("Dont be shy! fill your message ☺️");
       else if (this.name && this.service && this.message) {
@@ -76,18 +75,18 @@ export default {
           url: `https://api.telegram.org/bot${process.env.BOT_TELE_API}/sendMessage`,
           data: {
             text: `New message from alvins.codes! \nFrom : ${this.name}\nEmail : ${this.email}\nService : ${this.service}\nMessage : ${this.message}`,
-            chat_id: "469848777"
-          }
+            chat_id: "469848777",
+          },
         })
-          .then(res => {
+          .then((res) => {
             this.$router.replace("/success");
           })
-          .catch(err => {
+          .catch((err) => {
             console.log(err);
           });
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
