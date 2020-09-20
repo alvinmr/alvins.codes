@@ -3,7 +3,7 @@
     <Header
       hasDescription
       title="Blog."
-      desc="This is my blog where I can think out loud my writing. This will be for my sharing about college and anything that I know"
+      desc="This is my blog where I can think out loud. This blog will be place for me to sharing or note about anything "
     />
     <div class="flex mt-40">
       <h1 class="text-3xl lg:text-4xl font-brandonBlack">My Post</h1>
