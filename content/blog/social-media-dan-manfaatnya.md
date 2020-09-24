@@ -10,7 +10,8 @@ createdAt: 2020-09-17
     <template #text>
     Nama            : Alvin Maulana Rhusuli <br>
     NIM             : 2005551014 <br>
-    Prodi/Fakultas  : Teknologi Informasi/Teknik <br>
+    Prodi           : Teknologi Informasi <br>
+    Fakultas/Universitas  : Teknik/Universitas Udayana <br>
     Mata Kuliah     : Aplikasi Social Media (A) <br>
     Dosen           : I Putu Agus Eka Pratama, S.T.,M.T. <br>
     </template>
@@ -86,3 +87,5 @@ Contoh manfaat ini adalah :
 - Dengan social media, kita bebas untuk mengekspresikan diri misalnya dengan membuat sebuah film, animasi, musik, dan sebagainya.
 
 Sekian beberapa manfaat yang bisa kita dapatkan pada social media. Social media memanglah sangat bermanfaat, tetapi tetap ingat selalu ada aturan yang membatasinya. Jangan sampai salah menggunakan social media dengan melakukan kejahatan atau yang hal yang merugikan orang lain dan diri sendiri. Bijaklah bersosial media. Semoga bermanfaat !
+
+![ss kehadira](https://iili.io/273pVI.png)
