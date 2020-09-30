@@ -1,6 +1,8 @@
 <template>
   <div class="mt-10 lg:mx-10">
-    <nuxt-link class="px-4 py-2 text-white bg-black" to="/blog" exact>Back To Blog</nuxt-link>
+    <nuxt-link class="px-4 py-2 text-white bg-black" to="/blog" exact
+      >Back To Blog</nuxt-link
+    >
     <Header :title="article.title" />
 
     <nuxt-content
@@ -53,6 +55,8 @@ export default {
   @apply font-brandonBlack  text-black font-medium;
 }
 
-.prose p {
+.prose img {
+  width: 70%;
+  margin: 0 auto;
 }
 </style>
