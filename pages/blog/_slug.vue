@@ -56,7 +56,6 @@ export default {
 }
 
 .prose img {
-  width: 70%;
   margin: 0 auto;
 }
 </style>
