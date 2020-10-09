@@ -80,4 +80,4 @@ Nah sekian rangkuman materi yang bisa saya ambil, semoga dapat bermanfaat bagi o
 
 ### Capture Kehadiran
 
-![](https://oase.unud.ac.id/pluginfile.php/171658/assignsubmission_file/submission_files/128476/Screenshot_20201005_120045.png)
+![](https://i.ibb.co/hH6rxy9/Screenshot-20201005-120045.png)
