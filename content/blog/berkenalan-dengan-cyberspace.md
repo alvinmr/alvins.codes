@@ -1,6 +1,6 @@
 ---
 title: Berkenalan Dengan Cyberspace
-description: Membahas tentang cyberspace dan apa hubungannya dengan sosial media
+description: Membahas tentang Cyberspace dan apa hubungannya dengan sosial media
 tags: [sharing]
 header_image: https://i.ibb.co/8gLbP5f/Twitter-Post-1-1.png
 createdAt: 2020-10-07
@@ -19,19 +19,19 @@ createdAt: 2020-10-07
 
 Pernah gak sih kamu berpikir tentang bagaimana bisa sebuah dunia internet yang sedang kamu gunakan ini bisa terbentuk ?. Kok bisa sih dunia yang maya ini ada ?, apakah ini adalah magic dunia nyata ?. Di artikel inilah kita akan membahas tentang itu, atau jika lebih spesifik kita akan membahas tentang Cyberspace.
 
-## Apa itu cyberspace ?
+## Apa Itu Cyberspace ?
 
-Sebelum adanya sebuah cyberspace, pada dasarnya ketika jaringan komputer diciptakan mulai pada tahun 60-an, yang terhubung ialah antar komputer. Namun ketika makin meluas, jaringan komputer tidak hanya bisa menghubungkan antar komputer, namun juga bisa menghubungkan perangkat yang non komputer seperti printer, smartphone, sensor, cctb, scanner, dll.
+Sebelum adanya sebuah Cyberspace, pada dasarnya ketika jaringan komputer diciptakan mulai pada tahun 60-an, yang terhubung ialah antar komputer. Namun ketika makin meluas, jaringan komputer tidak hanya bisa menghubungkan antar komputer, namun juga bisa menghubungkan perangkat yang non komputer seperti printer, smartphone, sensor, cctb, scanner, dll.
 
 ![](https://i.ibb.co/6mzFH3z/image.png)
 
 Kemudian dari jaringan komputer berkembang menjadi internet. Internet di indonesia sendiri masuk pada tahun 90-an dan pada tahun 2000 adalah era dot dom. Dan dari internet inilah sebuah dunia bisa tercipta, dimana setiap orang berkumpul dan dapat saling berinteraksi. Dunia inilah yang kita kenal sebagai dunia maya, dan lalu dari dunia maya ini munculah cybercpace yang kemudia berelasi dengan social media.
 
-Nah masuk ke penjelasan cyberspace itu sendiri, **cyberspace merupakan **suatu Imaginary Location (tempat aktivitas elektronik dilakukan) dan juga menjadi sebuah massy virtual yang terbentuk melalui komunikasi yang terjalin dalam sebuah jaringan komputar (interconnected computer networks). Massy virtual itu sendiri merupakan lokasi virtual yang berguna sebagai tempat orang berkumpul untuk kerja seperti halnya di kantor fisik. Misal office massy virtual maka itu kantor virtual di internet.
+Nah masuk ke penjelasan Cyberspace itu sendiri, **Cyberspace merupakan **suatu Imaginary Location (tempat aktivitas elektronik dilakukan) dan juga menjadi sebuah massy virtual yang terbentuk melalui komunikasi yang terjalin dalam sebuah jaringan komputar (interconnected computer networks). Massy virtual itu sendiri merupakan lokasi virtual yang berguna sebagai tempat orang berkumpul untuk kerja seperti halnya di kantor fisik. Misal office massy virtual maka itu kantor virtual di internet.
 
-## Cyberspace dibagi menjadi 2
+## Cyberspace Dibagi Menjadi 2
 
-Karena cyberspace itu berisikan informasi dan komunikasi, maka cyberspace dapat dibagi menjadi 2 jenis, yaitu, Cognitive Information Cyberspace (CIC) dan Cognitive Communication Cyberspace (CCC).
+Karena Cyberspace itu berisikan informasi dan komunikasi, maka Cyberspace dapat dibagi menjadi 2 jenis, yaitu, Cognitive Information Cyberspace (CIC) dan Cognitive Communication Cyberspace (CCC).
 
 **1. Cognitive Information Cyberspace (CIC)**
 
@@ -55,7 +55,7 @@ Contohnya : Messager (Whatsapp, LINE, BBM) dan sosial media yang menyediakan fit
 
 ## Apa Hubungan Cyberspace Dengan Sosial Media?
 
-Lalu tersirat pertanyaan, **Apa hubungannya cyberspace dengan sosial media ?**. Jawabannya adalah seperti berikut : <br>
+Lalu tersirat pertanyaan, **Apa hubungannya Cyberspace dengan sosial media ?**. Jawabannya adalah seperti berikut : <br>
 > menghubungkan Manusia dengan Komputer/Perangkat terhubung lainnya , Manusia dengan Data dan Informasi, dan Komputer/Perangkat dengan Data dan Informasi
 
 ##  Legenda Negara Dengan Resiko Terputus Koneksinya dengan Internet
