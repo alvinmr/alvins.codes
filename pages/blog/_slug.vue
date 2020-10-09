@@ -39,7 +39,7 @@ export default {
         {
           hid: "twitter:card",
           name: "twitter:card",
-          content: this.article.header_image,
+          content: "summary_large_image",
         },
         {
           hid: "twitter:url",
