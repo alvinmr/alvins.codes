@@ -36,6 +36,31 @@ export default {
           name: "description",
           content: this.article.description,
         },
+        {
+          hid: "twitter:card",
+          name: "twitter:card",
+          content: this.article.header_image,
+        },
+        {
+          hid: "twitter:url",
+          name: "twitter:url",
+          content: "https://alvins.codes",
+        },
+        {
+          hid: "twitter:title",
+          name: "twitter:title",
+          content: this.article.title,
+        },
+        {
+          hid: "twitter:description",
+          name: "twitter:description",
+          content: this.article.description,
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content: this.article.header_image,
+        },
       ],
     };
   },
