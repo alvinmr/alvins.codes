@@ -2,19 +2,23 @@
   <div>
     <div class="text-center h-vh">
       <div class="grid justify-center align-middle">
-        <p class="hidden text-white opacity-50 hello lg:block md:block font-brandonBlack">HELLO</p>
         <p
-          class="block mt-20 text-sm font-bold text-center lg:-mt-80 lg:text-3xl lg:text-center md:text-3xl md:text-center md:-mt-56"
+          class="hidden text-white opacity-50 hello lg:block md:block font-brandonBlack"
         >
-          I'm a web developer based in
-          <br />Bali - Indonesia who loves to
-          <br />translate design into real
-          stuffs 💻🤘
+          HELLO
+        </p>
+        <p
+          class="block mt-20 text-sm font-bold text-center lg:-mt-64 lg:text-3xl lg:text-center md:text-3xl md:text-center md:-mt-56"
+        >
+          Im a guy that can code and lil bit design, <br />
+          but internet makes me can do anything.
         </p>
       </div>
     </div>
-    <div class="grid mt-20 lg:mt-56 project">
-      <p class="text-xs font-black tracking-widest opacity-50 font-brandon">PROJECT</p>
+    <div class="grid mt-20 lg:mt-40 project">
+      <p class="text-xs font-black tracking-widest opacity-50 font-brandon">
+        PROJECT
+      </p>
       <h1 class="text-xl lg:text-2xl font-brandonBlack">Recent Projects</h1>
       <div class="grid grid-cols-1 gap-5 mt-10 lg:gap-6 lg:grid-cols-2">
         <project
@@ -22,34 +26,18 @@
             title: 'ABELL',
             desc: 'Automatic Bell System',
             img: 'abell@2x.png',
-            link: 'https://github.com/alvinmr/abell'
+            link: 'https://github.com/alvinmr/abell',
           }"
-          style="background-color: #007BFF"
+          style="background-color: #007bff"
         />
         <project
           :project="{
             title: 'SIPASTI',
             desc: 'Payment System For School',
             img: 'sipasti@2x.png',
-            link: 'https://github.com/alvinmr/sipasti'
+            link: 'https://github.com/alvinmr/sipasti',
           }"
-          style="background-color: #665DD3"
-        />
-        <project
-          :project="{
-            title: 'SHAYNA',
-            desc: 'Fashion E-Commerce',
-            img: 'shayna@2x.png'
-          }"
-          style="background-color: #FEC519"
-        />
-        <project
-          :project="{
-            title: 'NOMADS',
-            desc: ' Booking Travel Web',
-            img: 'nomads@2x.png'
-          }"
-          style="background-color: #273964"
+          style="background-color: #665dd3"
         />
       </div>
     </div>
@@ -59,7 +47,7 @@
 <script>
 import Project from "~/components/Project.vue";
 export default {
-  components: { Project }
+  components: { Project },
 };
 </script>
 
