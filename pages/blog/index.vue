@@ -37,7 +37,7 @@ export default {
     };
   },
   async asyncData({ $content, params }) {
-    const blogs = await $content("blog").sortBy("createdAt").fetch();
+    const blogs = await $content("blog").sortBy("createdAt", "desc").fetch();
     return { blogs };
   },
 };

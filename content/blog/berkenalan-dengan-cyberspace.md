@@ -47,7 +47,7 @@ Contohnya : Messager (Whatsapp, LINE, BBM) dan sosial media yang menyediakan fit
 
 <block-square>
     <template #text>
-    <strong>#FYI (For Your Infromation)</strong> <br>
+    <strong>#FYI (For Your Information)</strong> <br>
     Pada saat ini 1 buah sosial bisa masuk ke dalam kedua kategoti di atas, tergantung dengan fitur yang sudah disediakan di dalamnya untuk para pengguna.
     </template>
 </block-square>

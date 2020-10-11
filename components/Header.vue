@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full mt-24 h-80">
     <div
-      class="relative self-center w-11/12 p-5 mx-auto bg-white border-2 border-black lg:p-12 intro lg:w-8/12 shadow-theme rounded-theme"
+      class="relative self-center p-5 mx-auto bg-white border-2 border-black lg:p-12 intro lg:w-8/12 shadow-theme rounded-theme"
     >
       <svg
         width="300"
