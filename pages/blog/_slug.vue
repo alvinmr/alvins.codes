@@ -58,7 +58,13 @@ export default {
         {
           hid: "og:image",
           name: "og:image",
-          content: this.article.header_image,
+          content: `https://serverless.alvinmr.vercel.app/og.jpg?author=${
+            this.article.author
+          }&website=alvins.codes&title=${
+            this.article.title
+          }&image=&date_time=${this.$moment(this.article.cratedAt).format(
+            "Do MMM YYYY"
+          )}`,
         },
         {
           hid: "og:description",
