@@ -1,9 +1,10 @@
 ---
 title: Berkenalan Dengan Cyberspace
 description: Membahas tentang Cyberspace dan apa hubungannya dengan sosial media
-tags: [sharing]
+tags: [cyberspace]
 header_image: https://i.ibb.co/8gLbP5f/Twitter-Post-1-1.png
 createdAt: 2020-10-07
+author: Alvin Maulana
 ---
 
 <block-square>

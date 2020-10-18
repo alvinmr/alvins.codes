@@ -1,9 +1,10 @@
 ---
 title: Kejahatan Di Dunia (Yang) Maya
 description: Pembahasan tentang kejahatan yang dilakukan di dunia maya (Cybercrime)
-tags: [sharing]
+tags: [cyberspace]
 header_image: https://i.ibb.co/Rzdt8sL/Twitter-Post-1-2.png
 createdAt: 2020-10-11
+author: Alvin Maulana
 ---
 
 <block-square>

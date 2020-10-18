@@ -1,12 +1,41 @@
 <template>
-  <div class="mt-10 lg:mx-10">
-    <nuxt-link class="px-4 py-2 text-white bg-black" to="/blog" exact
-      >Back To Blog</nuxt-link
-    >
-    <Header :title="article.title" />
+  <div class="mt-10">
+    <div class="flex items-center lg:ml-24">
+      <nuxt-link
+        class="px-4 py-2 text-sm text-white bg-black lg:w-auto"
+        to="/blog"
+        exact
+      >
+        <div class="flex flex-row items-center">
+          <div>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 12H3M3 12L10 5M3 12L10 19"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </div>
+          <div class="ml-5">back to article list</div>
+        </div></nuxt-link
+      >
+    </div>
+    <Header
+      :title="article.title"
+      :author="article.author"
+      :date="$moment(article.createdAt).format('Do MMM YYYY')"
+      :time_read="timeRead(article.readingTime)"
+    />
 
     <nuxt-content
-      class="mx-auto mt-24 prose text-justify sm:prose lg:prose-lg xl:prose-xl"
+      class="mx-auto mt-24 prose sm:prose lg:prose-lg xl:prose-xl"
       :document="article"
     />
   </div>
@@ -16,6 +45,11 @@
 import Header from "~/components/Header.vue";
 export default {
   components: { Header },
+  methods: {
+    timeRead(milisecond) {
+      return Math.floor(milisecond / 60000);
+    },
+  },
   head() {
     return {
       title: `alvinscodes | ${this.article.title}`,
@@ -59,7 +93,13 @@ export default {
         {
           hid: "twitter:image",
           name: "twitter:image",
-          content: this.article.header_image,
+          content: `https://serverless.alvinmr.vercel.app/og.jpg?author=${
+            this.article.author
+          }&website=alvins.codes&title=${
+            this.article.title
+          }&image=&date_time=${this.$moment(this.article.cratedAt).format(
+            "Do MMM YYYY"
+          )}`,
         },
       ],
     };
@@ -72,6 +112,17 @@ export default {
 </script>
 
 <style>
+.prose {
+  color: black;
+  max-width: none;
+}
+
+@screen lg {
+  .prose {
+    max-width: 80%;
+  }
+}
+
 .prose h1,
 .prose h2,
 .prose h3,

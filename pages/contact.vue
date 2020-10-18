@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-flow-row lg:grid-flow-col">
+    <div class="grid grid-flow-row mb-32 lg:grid-flow-col">
       <div class="grid justify-center mt-4 text-center h-80 lg:text-left">
         <h1
           class="w-full text-3xl lg:w-2/3 lg:text-6xl md:text-6xl font-brandonBlack"
@@ -85,9 +85,9 @@ export default {
   methods: {
     sendEmail() {
       this.errors = [];
-      if (!this.name) this.errors.push("Please fill your name ☹️");
+      if (!this.name) this.errors.push("Please tell your name");
       if (!this.service) this.errors.push("Hmmm fill what service you want");
-      if (!this.message) this.errors.push("Dont be shy! fill your message ☺️");
+      if (!this.message) this.errors.push("Dont be shy! your message");
       else if (this.name && this.service && this.message) {
         this.isLoading = true;
 

@@ -1,22 +1,31 @@
 <template>
   <div>
     <div class="article">
-      <div class="image-article" :style="`background-image: url('${article.header_image}')`"></div>
+      <!-- <div class="image-article" :style="`background-image: url('${article.header_image}')`"></div> -->
       <div>
         <div class="relative flex flex-row justify-between">
-          <p class="text-sm date lg:text-base">{{ $moment(article.date).format('Do MMM YYYY') }}</p>
+          <p class="text-sm date lg:text-base">
+            {{ $moment(article.date).format("Do MMM YYYY") }}
+          </p>
           <p class="time">{{ timeRead(article.time_read) }} min read</p>
         </div>
         <nuxt-link
           :to="`${article.path}`"
           class="title-article hover:text-gray-700"
           exact
-        >{{ article.title }}</nuxt-link>
-        <p class="h-20 mt-4 mb-2 text-sm lg:mb-12 lg:text-base">{{ article.description }}</p>
+          >{{ article.title }}</nuxt-link
+        >
+        <p class="h-20 mt-4 mb-2 text-sm lg:mb-12 lg:text-base">
+          {{ article.description }}
+        </p>
         <div class="relative flex flex-row justify-between">
           <div class="flex flex-row bg-whiteTheme">
             <div v-for="tags in article.tags" :key="tags.index">
-              <nuxt-link class="text-xs lg:text-base tags hover:text-gray-700" to="/" exact>
+              <nuxt-link
+                class="text-xs lg:text-base tags hover:text-gray-700"
+                to="/"
+                exact
+              >
                 #
                 <span class="-ml-2 font-bold">{{ tags }}</span>
               </nuxt-link>
@@ -27,7 +36,8 @@
               class="text-xs lg:text-sm btn-article"
               :to="`${article.path}`"
               exact
-            >Read Post</nuxt-link>
+              >Read Post</nuxt-link
+            >
           </div>
         </div>
       </div>

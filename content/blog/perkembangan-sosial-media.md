@@ -4,6 +4,7 @@ description: Sejarah tentang sosial media yang dialami pada zaman dahulu hingga 
 tags: [sharing]
 header_image: https://i.postimg.cc/kgHtw8BL/Twitter-Post-1.png
 createdAt: 2020-09-26
+author: Alvin Maulana
 ---
 
 <block-square>
