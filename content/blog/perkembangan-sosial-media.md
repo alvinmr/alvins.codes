@@ -1,7 +1,7 @@
 ---
 title: Perkembangan Sosial Media Dari Masa ke Masa
 description: Sejarah tentang sosial media yang dialami pada zaman dahulu hingga sekarang
-tags: [sharing]
+tags: [socialmedia]
 header_image: https://i.postimg.cc/kgHtw8BL/Twitter-Post-1.png
 createdAt: 2020-09-26
 author: Alvin Maulana
@@ -18,7 +18,7 @@ author: Alvin Maulana
     </template>
 </block-square>
 
-Haloo semuanyaaa 🤩. Kembali lagi pada artikel yang bertemakan tentang Sosial Media (Sosmed), yang pastinya untuk kalian para pembaca artikel ini sudah sangat familiar dengan topik pembahasan kali ini. Yak, sapa sih yang engga kenal atau sekedar icip-icip yang namanya sosial media di zaman sekarang ? pastinya semua tau yekannn 😎.
+Kembali lagi pada artikel yang bertemakan tentang Sosial Media (Sosmed), yang pastinya untuk kalian para pembaca artikel ini sudah sangat familiar dengan topik pembahasan kali ini. Yak, sapa sih yang engga kenal atau sekedar icip-icip yang namanya sosial media di zaman sekarang ? pastinya semua tau yekannn.
 
 Nah pada artikel sebelumnya, sempat dibahas yaitu tentang apa itu sosial media dan apa saja manfaat sosial media bagi kita semua. Lalu, pada kesempatan kali ini kita bahas apa sih?. Sesuai dengan judul artikel ini, yaitu "Perkembangan Sosial Media" yaitu kita akan membahas tentang bagaimana perkembangan atau perubahan tentang sosial media dari dulu hingga sekarang ini.
 

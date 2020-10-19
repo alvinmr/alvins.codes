@@ -1,7 +1,7 @@
 ---
 title: Teknologi Dibelakang Sosial Media
 description: Macam-macam teknologi dibalik kecanggihan yang ada di sosial media
-tags: [sosialmedia]
+tags: [socialmedia]
 header_image: https://i.ibb.co/Z6kMsv7/Twitter-Post-1.png
 createdAt: 2020-10-15
 author: Alvin Maulana

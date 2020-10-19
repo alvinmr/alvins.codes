@@ -1,7 +1,7 @@
 ---
 title: Social Media Dan Manfaatnya
 description: Pengertian, manfaat, serta contoh manfaat dari social media
-tags: [sharing]
+tags: [socialmedia]
 header_image: https://sosiologis.com/wp-content/uploads/2018/02/medsos.jpg
 createdAt: 2020-09-17
 author: Alvin Maulana
