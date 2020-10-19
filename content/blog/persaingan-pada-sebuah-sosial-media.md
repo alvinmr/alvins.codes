@@ -20,6 +20,8 @@ author: Alvin Maulana
 
 Pernahkah kamu merasakan ada sebuah sosial media yang ada pada dulu, dan tidak ada pada sekarang ?. Dan yak, persaingan sosial media itu benar adanya. Untuk dapat bertahan hidup, sebuah sosial media harus mempunyai "daya tarik" nya sendiri untuk mendapatkan usernya. 
 
+![fitur sosial media](https://www.mainmain.id/uploads/post/2020/01/16/illustration-person-addicted-social-media_23-2148403076.jpg)
+
 Daya Tarik apa yang dimaksud ? maksudnya ialah sosial media harus mempunyai ciri khas nya sendiri seperti salah satu contohnya adalah sebuah fitur yang hanya di miliki sosial media itu sendiri dan tidak dimiliki oleh sosial media lain.
 
 ## Fitur-fitur Sosial Media
