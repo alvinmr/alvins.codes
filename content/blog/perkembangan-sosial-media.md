@@ -67,7 +67,7 @@ Sosial media kedua yang saya bahas disini adalah Instagram yang merupakan salah 
 
 Tampilan awal instagram masih sangat sederhana dengan warna yang dominan biru dan diselangi oleh warna hitam dan putih. Pada awalnya logo instagram adalah sebuah kamera yang berwarna dominan coklat
 
-<image-with-capt src="https://en.promorepublic.com/wp-content/uploads/2019/02/Instagram-1200x693.jpg" alt="Tampilan baru Facebook" caption="Tampilan baru Facebook" > </image-with-capt>
+<image-with-capt src="https://en.promorepublic.com/wp-content/uploads/2019/02/Instagram-1200x693.jpg" alt="Tampilan baru Instagram" caption="Tampilan baru Instagram" > </image-with-capt>
 
 <image-with-capt src="https://i.pinimg.com/originals/e0/0a/1e/e00a1e73cf4685898251c12cf44de902.jpg" alt="logo lama instagram" caption="logo lama instagram" > </image-with-capt>
 
