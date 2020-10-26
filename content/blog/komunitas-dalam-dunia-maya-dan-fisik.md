@@ -1,9 +1,10 @@
 ---
 title: Komunitas Dalam Dunia Maya Dan Fisik
 description: Pembahasan manusia sebagai makhluk individu dan sosial dan hubungannya dengan komunitas
-tags: [sharing]
+tags: [community]
 header_image: https://i.ibb.co/Z6kMsv7/Twitter-Post-1.png
 createdAt: 2020-10-03
+author: Alvin Maulana
 ---
 
 <block-square>

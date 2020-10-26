@@ -1,9 +1,10 @@
 ---
 title: Perkembangan Sosial Media Dari Masa ke Masa
 description: Sejarah tentang sosial media yang dialami pada zaman dahulu hingga sekarang
-tags: [sharing]
+tags: [socialmedia]
 header_image: https://i.postimg.cc/kgHtw8BL/Twitter-Post-1.png
 createdAt: 2020-09-26
+author: Alvin Maulana
 ---
 
 <block-square>
@@ -17,7 +18,7 @@ createdAt: 2020-09-26
     </template>
 </block-square>
 
-Haloo semuanyaaa 🤩. Kembali lagi pada artikel yang bertemakan tentang Sosial Media (Sosmed), yang pastinya untuk kalian para pembaca artikel ini sudah sangat familiar dengan topik pembahasan kali ini. Yak, sapa sih yang engga kenal atau sekedar icip-icip yang namanya sosial media di zaman sekarang ? pastinya semua tau yekannn 😎.
+Kembali lagi pada artikel yang bertemakan tentang Sosial Media (Sosmed), yang pastinya untuk kalian para pembaca artikel ini sudah sangat familiar dengan topik pembahasan kali ini. Yak, sapa sih yang engga kenal atau sekedar icip-icip yang namanya sosial media di zaman sekarang ? pastinya semua tau yekannn.
 
 Nah pada artikel sebelumnya, sempat dibahas yaitu tentang apa itu sosial media dan apa saja manfaat sosial media bagi kita semua. Lalu, pada kesempatan kali ini kita bahas apa sih?. Sesuai dengan judul artikel ini, yaitu "Perkembangan Sosial Media" yaitu kita akan membahas tentang bagaimana perkembangan atau perubahan tentang sosial media dari dulu hingga sekarang ini.
 
@@ -66,7 +67,7 @@ Sosial media kedua yang saya bahas disini adalah Instagram yang merupakan salah 
 
 Tampilan awal instagram masih sangat sederhana dengan warna yang dominan biru dan diselangi oleh warna hitam dan putih. Pada awalnya logo instagram adalah sebuah kamera yang berwarna dominan coklat
 
-<image-with-capt src="https://en.promorepublic.com/wp-content/uploads/2019/02/Instagram-1200x693.jpg" alt="Tampilan baru Facebook" caption="Tampilan baru Facebook" > </image-with-capt>
+<image-with-capt src="https://en.promorepublic.com/wp-content/uploads/2019/02/Instagram-1200x693.jpg" alt="Tampilan baru Instagram" caption="Tampilan baru Instagram" > </image-with-capt>
 
 <image-with-capt src="https://i.pinimg.com/originals/e0/0a/1e/e00a1e73cf4685898251c12cf44de902.jpg" alt="logo lama instagram" caption="logo lama instagram" > </image-with-capt>
 
