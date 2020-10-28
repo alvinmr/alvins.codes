@@ -132,8 +132,8 @@
         </div>
         <div class="flex flex-row">
           <svg
-            width="32"
-            height="32"
+            width="40"
+            height="40"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -157,9 +157,9 @@
             ></path>
           </svg>
           <p
-            class="self-center w-8/12 ml-0 text-xs font-semibold text-right text-gray-800 lg:w-full lg:ml-3 lg:text-xl"
+            class="self-center w-full ml-2 text-xs font-semibold text-right text-gray-800 lg:w-full lg:ml-3 lg:text-xl"
           >
-            {{ `${time_read} minute read` }}
+            {{ `${time_read} min read` }}
           </p>
         </div>
       </div>
