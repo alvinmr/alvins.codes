@@ -4,6 +4,7 @@ description: Pengertian etika dan penerapan etika dalam sosial dan teknologi
 tags: [socialmedia]
 header_image: https://i.ibb.co/8gLbP5f/Twitter-Post-1-1.png
 author: Alvin Maulana
+createdAt: 2020-10-18
 ---
 
 <block-square>
