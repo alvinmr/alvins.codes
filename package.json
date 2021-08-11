@@ -1,0 +1,29 @@
+{
+  "name": "alvinscodes",
+  "version": "1.0.0",
+  "description": "my personal portfolio web",
+  "author": "alvin",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.10.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/pwa": "^3.2.2",
+    "@tailwindcss/typography": "^0.2.0",
+    "nuxt": "^2.14.7",
+    "prism-themes": "^1.5.0",
+    "reading-time": "^1.2.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "push-dir": "^0.4.1"
+  }
+}
