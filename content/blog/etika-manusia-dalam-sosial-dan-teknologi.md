@@ -22,14 +22,15 @@ Pernahkah kamu semasa kecil diajarkan untuk selalu menghormati orang yang lebih 
 
 ![etika](https://image.freepik.com/free-vector/angel-devil-hovering-thinking-businessman_51635-485.jpg)
 
-Membahas etika, sebenernya apasih itu etika ? 
+Membahas etika, sebenernya apasih itu etika ?
 
 > Etika merupakan prinsip-prinsip moral yang mempengaruhi bagaimana orang (manusia/individu) membuat keputusan dan menjalani hidup mereka. 
 Etika berkaitan dengan apa yang baik bagi individu bersangkutan dan masyarakat.
 
 Pada hakikatnya etika membicarakan sifat manusia sehingga seseorang bisa dikatakan baik, bijak, jahat, susila atau sebagainya.
 
-Contoh lain dari etika dalam kehidupan sehari-hari ini adalah : 
+Contoh lain dari etika dalam kehidupan sehari-hari ini adalah :
+
 1. Tidak memotong pembicaraan orang
 2. Menghargai pendapat orang lain
 3. Menjaga tata bicara ketika berbicara kepada yang lebih tua
@@ -65,9 +66,11 @@ Sampailah pada kesimpulan. Pada akhirnya, segala kegiatan kita baik itu dalam du
 
 Sekian artikel saya, semoga dapat membantu kita dalam memahami sebuah etika dalam bersosial di dunia nyata maupun di dunia maya. Terimakasih 😄
 
-## Refrensi 
+## Refrensi
+
 - File aplikasisocialmedia-08.pdf (materi kuliah pertemuan 8)
 - Pemaparan materi pertemuan kedelapan mengenai etika komputer dan etika internet oleh I Putu Agus Eka Pratama, S.T., M.T
 
 ## Capture Kehadiran
+
 ![capture kehadira](https://i.ibb.co/nbmpQNH/Screenshot-20201022-135100.png)
